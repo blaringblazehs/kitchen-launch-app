@@ -1,0 +1,11 @@
+.main-pb {
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 6rem 1fr 2fr 6rem;
+}
+.left {
+    grid-column: 2/3;
+}
+.right {
+    grid-column: 3/4;
+}
