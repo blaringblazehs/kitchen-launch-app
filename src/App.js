@@ -6,6 +6,7 @@ import Ajay from "./components/Ajay";
 import Vijay from "./components/Vijay";
 import Rahul from "./components/Rahul";
 import Kitchen from "./components/Kitchen";
+import KitchenDetails from "./components/KitchenDetails";
 import { Routes, Route } from "react-router-dom";
 function App() {
     return (

@@ -4,14 +4,19 @@
 }
 .left-menu div {
     list-style: none;
-    border: 2px solid black;
+    border: 1px solid rgb(177, 173, 173);
+    background-color: #34495d;
+    color: white;
     height: 100%;
     width: 80%;
-    padding: 10px;
-    font-size: 50px;
+    padding: 20px;
+    font-size: 30px;
+    margin-top: 6px;
+    border-radius: 10px;
+    box-shadow: 0 4px 21px -12px rgba(0, 0, 0, 0.79);
 }
 .left-menu div:hover {
-    background-color: grey;
+    background-color: #3fcc70;
     color: white;
 }
 .left-menu a {

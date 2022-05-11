@@ -1,0 +1,42 @@
+.main-pc {
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 6rem 1fr 6rem;
+}
+.list-pc {
+    grid-column: 2/3;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    border: 2px solid black;
+    height: 100%;
+    padding: 10px;
+    grid-gap: 20px;
+}
+.list-c {
+    width: 600px;
+    height: 100%;
+    border: 2px solid black;
+    box-shadow: 0 4px 21px -12px rgba(0, 0, 0, 0.79);
+}
+.btn-pc {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 40px;
+}
+.btn-green {
+    background-color: rgb(108, 233, 108);
+    color: white;
+    box-shadow: 0 4px 21px -12px rgba(0, 0, 0, 0.79);
+}
+.btn-green:hover {
+    background-color: green;
+}
+.btn-red {
+    background-color: red;
+    color: white;
+    box-shadow: 0 4px 21px -12px rgba(0, 0, 0, 0.79);
+}
+.btn-red:hover {
+    background-color: darkred;
+}

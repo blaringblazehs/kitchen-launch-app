@@ -34,7 +34,7 @@ const PersonA = () => {
         addDoc(postRef, data)
             .then((res) => {
                 console.log(res);
-                alert("Blog Saved");
+                alert("Entry Saved");
             })
             .catch((err) => {
                 console.log(err);
