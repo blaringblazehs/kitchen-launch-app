@@ -1,7 +1,7 @@
 .main-pb {
     display: grid;
     grid-template-rows: 1fr;
-    grid-template-columns: 6rem 1fr 2fr 6rem;
+    grid-template-columns: 3rem 1fr 6fr 3rem;
 }
 .left {
     grid-column: 2/3;

@@ -5,6 +5,7 @@ import PersonC from "./components/PersonC";
 import Ajay from "./components/Ajay";
 import Vijay from "./components/Vijay";
 import Rahul from "./components/Rahul";
+import Kitchen from "./components/Kitchen";
 import { Routes, Route } from "react-router-dom";
 function App() {
     return (
@@ -13,9 +14,15 @@ function App() {
             <Routes>
                 <Route path="/persona" element={<PersonA />} />
                 <Route path="/personb" element={<PersonB />}>
-                    <Route path="ajay" element={<Ajay />} />
-                    <Route path="vijay" element={<Vijay />} />
-                    <Route path="rahul" element={<Rahul />} />
+                    <Route path="ajay" element={<Ajay />}>
+                        <Route path="kitchen/:id" element={<Kitchen />} />
+                    </Route>
+                    <Route path="vijay" element={<Vijay />}>
+                        <Route path="kitchen/:id" element={<Kitchen />} />
+                    </Route>
+                    <Route path="rahul" element={<Rahul />}>
+                        <Route path="kitchen/:id" element={<Kitchen />} />
+                    </Route>
                 </Route>
                 <Route path="/personc" element={<PersonC />} />
             </Routes>

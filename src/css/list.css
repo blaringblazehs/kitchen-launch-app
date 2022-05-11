@@ -1,0 +1,34 @@
+.list-a {
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-weight: 600;
+    color: rgb(0, 8, 255);
+    border-radius: 9px;
+    justify-content: space-between;
+    box-shadow: 0 4px 21px -12px rgba(0, 0, 0, 0.79);
+    border: 1px solid black;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: large;
+}
+.list-a:hover {
+    background-color: lightgrey;
+    transition: all ease-in;
+}
+/* .list-a i:hover {
+    color: red;
+    transition: 1s ease;
+    transform: scale(1.4);
+} */
+.main-a {
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr 2fr;
+}
+.left-list {
+    grid-column: 1/2;
+}
